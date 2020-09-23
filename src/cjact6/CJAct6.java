@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cjact6;
 
 import java.util.Scanner;
@@ -60,7 +55,8 @@ public class CJAct6 {
         return calificacion;
     }
     
-    public static void ImprimirResultados(String nombre, Double[] calificaciones,double promedio, char calificacion){
+    public static void ImprimirResultados(String nombre, Double[] calificaciones,
+            double promedio, char calificacion){
         System.out.println("Nombre del estudiante: " + nombre);
         for (int i = 0; i < calificaciones.length; i++) {
             System.out.println("Calificación " + (i+1) + ": " + calificaciones[i]);
